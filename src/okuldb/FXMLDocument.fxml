@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="313.0" prefWidth="504.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="okuldb.FXMLDocumentController">
+   <children>
+      <ListView fx:id="List" layoutX="53.0" layoutY="8.0" prefHeight="200.0" prefWidth="383.0" />
+      <Button layoutX="227.0" layoutY="245.0" mnemonicParsing="false" onAction="#Search" text="Bul" />
+   </children>
+</AnchorPane>
